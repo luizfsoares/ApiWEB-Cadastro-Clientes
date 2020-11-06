@@ -1,0 +1,67 @@
+.input_format{
+
+    width: 50%;
+}
+
+.area_form{
+
+    border: 2px solid black;
+    margin-top: 10%;
+    -webkit-box-shadow: -1px 4px 26px 11px rgba(0,0,0,0.75);
+    box-shadow: -1px 4px 26px 11px rgba(0,0,0,0.75);
+    -moz-box-shadow: -1px 4px 26px 11px rgba(0,0,0,0.75); 
+}
+
+.myBackground{
+    background: rgb(2, 2, 2);
+    background: rgb(249,232,255);
+    background: linear-gradient(90deg, rgba(249,232,255,1) 0%, rgba(218,235,255,1) 100%);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed; 
+}
+
+a.nav-link:hover{
+    border-radius: 10px;
+    transition: box-shadow 0.45s;
+    box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+td a { 
+    display: block; 
+    padding: 16px; 
+}
+
+tr{
+    border: 1px solid black;
+}
+
+.format{
+    padding-top: 20%;
+}
+
+.trigger {
+    padding: 1px 10px;
+    font-size: 12px;
+    font-weight: 400;
+    border-radius: 10px;
+    background-color: rgb(128, 209, 247);
+    color: #212121;
+    display: inline-block;
+    margin: 2px 5px;
+}
+    
+.hoverable, .trigger {
+    transition: box-shadow 0.55s;
+    box-shadow: 0;
+}
+    
+.hoverable:hover, .trigger:hover {
+    transition: box-shadow 0.45s;
+    box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+
+
