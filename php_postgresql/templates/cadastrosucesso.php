@@ -62,7 +62,7 @@ include_once '../connection.php';
             <h3>O Cliente foi Cadastrado com sucesso.</h3>
             <br><br>
             <form action="cadastro.php">
-              <input type="submit" class="btn btn-success" value="OK">
+              <input type="submit" class="btn btn-success my_btn input_format" value="OK">
             </form>
             
 
@@ -80,14 +80,15 @@ include_once '../connection.php';
 
 <?php   
 //verificando existencia do POST
-if(isset($_POST['name']) && isset($_POST['street']) && isset($_POST['city'])){
+if(isset($_POST['name']) && isset($_POST['street']) && isset($_POST['city']) && isset($_POST['id_client'])){
 
+    $id_client = $_POST['id_client'];
     $name = $_POST['name'];      
     $street = $_POST['street']; 
     $city = $_POST['city']; 
     
     //string para inserir registro na tabela usando insert into e os valores capturados por POST do formulario
-    $INSERT = "INSERT INTO register (name, street, city) VALUES ('$name','$street','$city')" ;
+    $INSERT = "INSERT INTO register (id_client, name, street, city) VALUES ('$id_client','$name','$street','$city')" ;
     $result = pg_exec($conn, $INSERT);
 
     if ($result === false){ ?>

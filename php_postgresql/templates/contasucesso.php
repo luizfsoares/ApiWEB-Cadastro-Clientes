@@ -63,7 +63,7 @@ session_start();
             <h3>Nova Conta Cadastrada com Sucesso.</h3>
             <br><br>
             <form action="contaclientes.php">
-              <input type="submit" class="btn btn-success" value="OK" style="width:50%">
+              <input type="submit" class="btn btn-success my_btn input_format" value="OK" style="width:50%">
             </form>
             
 

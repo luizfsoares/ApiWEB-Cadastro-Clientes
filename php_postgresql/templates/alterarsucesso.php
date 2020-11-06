@@ -70,7 +70,7 @@ $city_selec = $_SESSION['city_selec'];
             <h3>Dados Alterados com Sucesso.</h3>
             <br><br>
             <form action="cadastro.php">
-              <input type="submit" class="btn btn-success" value="OK">
+              <input type="submit" class="btn btn-success my_btn input_format" value="OK">
             </form>
             
 
