@@ -65,12 +65,12 @@ session_start();
                 <label for=""><b>Pesquisar:</b> </label> <br>
 
                 <div class="col-3">
-                  <input class="input_format" type="number" name="idSearch" placeholder="Id">
+                  <input class="input_format" type="number" name="idSearch" placeholder="Id" style="width:80%; margin-left: 50%;">
 
                 </div >
             </div>
             <br><br><br>
-            <input class= "input_format"type="submit" value="Pesquisar">
+            <input class="btn btn-success input_format my_btn" type="submit" value="Pesquisar" style="width:50%;">
 
         </form>
         <br><br><br>
