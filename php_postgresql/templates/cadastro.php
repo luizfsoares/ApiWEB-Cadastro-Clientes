@@ -55,25 +55,50 @@ include_once '../connection.php';
     <!--HEADER-->
 
     <!--FORM-->
-    <div class="container" style="text-align:center; width:100%;"> <br>
-        <h1><b>Realizar Cadastro</b></h1>
-        <form action="cadastrosucesso.php" class="area_form" method="POST" style="width:50%; display: inline-block; position: relative;">
-        
-            <div>
-                <label for=""><b>Digite seu Nome:</b> </label> <br>
-                <input class="input_format" type="text" name="name" placeholder="Nome...">
+    <div class="container">
+      <h1 style="margin-top:5%"><b>Realizar Cadastro de Cliente</b></h1>
+    </div>
+
+    <div class="container" style="width:100%;"> <br>
+        <form action="cadastrosucesso.php" class="area_form" method="POST" style="width:100%; display: inline-block; position: relative;">
+
+
+          <div class="row">
+            <!-- LEMBRAR DA FOTO DA AREA DO CLIENTE-->
+
+            <div class="col-7" style="padding-left: 5%; padding-top:5%;">
+
+              <label for=""><b>Digite um identificador:</b> </label> <br>
+              <input class="input_format" type="number" name="id_client" placeholder="Id" style="width:90%" required>
+              <br><br>
+              <label for=""><b>Digite seu nome:</b> </label> <br>
+              <input class="input_format" type="text" name="name" placeholder="Nome" style="width:90%" required>
+              <br><br>
+              <label for=""><b>Digite sua rua:</b> </label> <br>
+              <input class="input_format" type="text" name="street" placeholder="Rua" style="width:90%" required>
+              <br><br>
+              <label for=""><b>Digite sua cidade:</b> </label> <br>
+              <input class="input_format" type="text" name="city" placeholder="Cidade" style="width:90%" required>
+              <br><br>
+            
             </div>
-            <div>
-                <label for=""><b>Digite sua rua :</b> </label> <br>
-                <input class="input_format" type="text" name="street" placeholder="Rua...">
+            <div class="col-5">
+
+              <img class="img-fluid"src="../images/imagem1.png" alt="erro ao carregar imagem.">
+            
             </div>
-            <div>
-                <label for=""><b>Digite sua Cidade :</b> </label> <br>
-                <input class="input_format" type="text" name="city" placeholder="Cidade...">
-            </div>
+
+
             <br><br><br>
-            <input class= "input_format"type="submit" value="Cadastrar">
-        
+            <div style="padding-left: 43%">
+              <input class="btn btn-success input_format" type="submit" value="Cadastrar Cliente" style="width:100%;">
+            </div>
+            
+            <div class="row">
+                <br><br>
+            </div> 
+          
+          </div>
         
         </form>
     </div>
