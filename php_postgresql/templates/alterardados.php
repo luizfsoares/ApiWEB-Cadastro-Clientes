@@ -109,7 +109,7 @@ $city_selec = $_SESSION['city_selec'];
                 <input class="input_format" type="text" name="cityA" placeholder="Cidade..." value= "<?php echo htmlspecialchars($city_selec); ?>">
             </div>
             <br><br><br>
-            <input class= "input_format"type="submit" value="Alterar Dados" onclick= "button_red();">
+            <input class= "input_format my_btn"type="submit" value="Alterar Dados" onclick= "button_red();">
         
         
           </form>
