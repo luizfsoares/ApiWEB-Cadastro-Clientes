@@ -59,7 +59,7 @@ session_start();
 
     <!--FORM-->
     <div class="container">
-    <h1 style="margin-top:5%"><b>Realizar Cadastro de Conta</b></h1>
+      <h1 style="margin-top:5%"><b>Realizar Cadastro de Conta</b></h1>
     </div>
     <div class="container" style="width:100%;"> <br>
         
@@ -123,7 +123,7 @@ session_start();
 
             <br><br><br>
             <div style="padding-left: 30%">
-              <input class="btn btn-success" type="submit" value="Cadastrar Conta" style="width:50%;">
+              <input class="btn btn-success my_btn" type="submit" value="Cadastrar Conta" style="width:50%;">
             </div>
             
             <div class="row">
